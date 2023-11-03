@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image:linear-gradient( rgb(255, 39, 39),  rgb(209, 34, 34),  rgb(168, 26, 26));
+            margin: 0px;
+        }
+        header{
+            
+            display: flex;
+            background-color: white;
+            padding: 0px;
+            margin: 0px;
+
+        }
+        header > h1{
+            text-decoration: none;
+            height: auto;
+            width: auto;
+            margin: 10px 10px 10px 40px;
+        }
+        header > h1 > a{
+            color: black;
+            text-decoration: none;
+
+        }
+        
+        nav{
+            display: flex;
+            background-color: white;
+            margin: auto 20px auto auto;
+            
+            
+
+        }
+        nav > a{
+            margin: auto 10px auto 10px;
+            text-decoration: none;
+            color: rgb(92, 5, 5);
+            font-weight: bold;
+            
+            
+        }
+        
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            border-radius: 20px;
+            background-color: white;
+            padding: 30px;
+            margin: 30px 90px;
+        }
+        article{
+            background-color: white;
+            padding: 5px;
+        }
+        article > aside{
+            border-radius: 10px;
+            background-color: lightgray;
+            text-align: center;
+        }
+        #noticias{
+            border-radius: 20px;
+            padding: 50px;
+            margin: 50px ;
+            box-shadow: 0px 0px 15px rgb(206, 206, 206) ;
+            
+        }
+
+        #assuntos{
+            padding: 8px;
+            color: white;
+            font-size: 2em;
+            font-weight: bold;
+            border-radius: 20px;
+            text-align: center;
+            background-color: rgb(231, 9, 9);
+            
+        }
+        #assuntos > p{
+            margin: 0px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        #bola{
+            
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: aqua;
+            border-radius: 50%;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+
+    <header>
+
+        <h1><a href="#">Meu site</a></h1>
+        <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim sint, magnam ducimus quisquam doloremque illo deserunt sequi eveniet praesentium repellendus, pariatur, cumque sit ullam ab harum officia? Atque, iure debitis.</p>
+                <aside>
+                    <p>Artigo escrito por Bernardo</p>
+                </aside>
+            </article>
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim sint, magnam ducimus quisquam doloremque illo deserunt sequi eveniet praesentium repellendus, pariatur, cumque sit ullam ab harum officia? Atque, iure debitis.</p>
+                <aside>
+                    <p>Artigo escrito por Bernardo</p>
+                </aside>
+            </article>
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim sint, magnam ducimus quisquam doloremque illo deserunt sequi eveniet praesentium repellendus, pariatur, cumque sit ullam ab harum officia? Atque, iure debitis.</p>
+                <aside>
+                    <p>Artigo escrito por Bernardo</p>
+                </aside>
+            </article>
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim sint, magnam ducimus quisquam doloremque illo deserunt sequi eveniet praesentium repellendus, pariatur, cumque sit ullam ab harum officia? Atque, iure debitis.</p>
+                <aside>
+                    <p>Artigo escrito por Bernardo</p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+    
+    <footer>
+        <p>Desenvolvido por Bernardo Raposo</p>
+    </footer>
+    <div id="bola"></div>
+
+</body>
+</html>
